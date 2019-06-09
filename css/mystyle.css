@@ -1,0 +1,318 @@
+body {
+  background-color: #151424;
+  background-image: url('../images/bg000000.jpg');
+  background-repeat: no-repeat;
+  color: #646464;
+  font-family: Tahoma;
+  font-size: 12px;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.maindiv {
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 0;
+  width: 900px;
+}
+
+#forbody {
+  padding: 20px;
+}
+
+#main_h1 {
+  color: #2C2C2C;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2C2C2C;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  margin-left: 0;
+}
+
+p strong {
+  color: #2C2C2C;
+}
+
+h3 {
+  color: #2C2C2C;
+}
+
+.mototable {
+  border: 1px solid #cccccc;
+  margin-top: 15px;
+}
+
+.mototable thead tr {
+  background-color: #f6f6f6;
+  height: 20px;
+  padding-left: 20px;
+}
+
+.mototable tbody tr td {
+  padding-left: 20px;
+  text-align: left;
+}
+
+#myform div {
+  margin: 20px;
+}
+
+#bigform {
+  width: 850px;
+}
+
+#bigform span {
+  color: #2c2c2c;
+  font-size: 11px;
+}
+
+#div_form_1 {
+  float: right;
+  width: 420px;
+}
+
+#div_form_2 {
+  width: 420px;
+}
+
+#div_form_1 #days {
+  margin-left: 15px;
+}
+
+#my_button,
+select {
+  background-color: #f6f6f6;
+  border: 1px solid #cccccc;
+  color: #2C2C2C;
+  font-size: 11px;
+  margin-left: 3px;
+}
+
+a {
+  color: #505391;
+}
+
+fieldset {
+  background-color: #e7e7f0;
+  border: 1px solid #cccccc;
+  padding: 15px;
+  width: 825px;
+}
+
+#innerfieldset,
+#innerfieldset2 {
+  background-color: #f6f6f6;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  width: 385px;
+}
+
+legend {
+  color: #2c2c2c;
+  font-size: 11px;
+}
+
+input {
+  background-color: #f6f6f6;
+  border: 1px solid #cccccc;
+  font-size: 11px;
+}
+
+textarea {
+  background-color: #f6f6f6;
+  border: 1px solid #cccccc;
+}
+
+#sale {
+  margin-top: 20px;
+}
+
+#switchGal {
+  text-decoration: underline;
+  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#gallery {
+  padding: 20px;
+  border: 1px solid #cccccc;
+  width: 483px;
+  margin: 10px auto;
+  height: 380px;
+  display: none;
+}
+
+#big {
+  background-image: url("../images/gal/loader.gif");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 483px;
+  height: 302px;
+  border: 1px dotted #cccccc;
+}
+
+#small {
+  margin-top: 10px;
+  margin-left: 33px;
+
+}
+
+#small a img {
+  border: none;
+}
+
+#help {
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+/* Стили для блока распродажи */
+
+.mycart {
+  width: 835px;
+  height: 200px;
+  border: 2px solid #f6f6f6;
+  margin: 20px;
+  display: block;
+}
+
+.forhelmets {
+  width: 835px;
+  height: 200px;
+  margin: 20px;
+  border: 2px solid #f6f6f6;
+  display: block;
+}
+
+.highlight {
+  border: 2px solid green;
+
+}
+
+#myclear {
+  text-align: right;
+  line-height: 38px;
+  display: none;
+}
+
+#checkout {
+  margin-left: 15px;
+  float: right;
+  cursor: pointer;
+  border: none;
+}
+
+#checkForm {
+  display: inline;
+}
+
+#forHelmets div,
+#mycart div {
+  float: left;
+}
+/* Sort */
+#helpDiv {
+  float: left;
+  width: 400px;
+  height: 420px;
+}
+
+#sortable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+#sortable li {
+  margin: 0 5px 5px;
+  padding: 5px;
+  font-size: 1.2em;
+  height: 1.5em;
+}
+
+.ui-state-highlight {
+  height: 1.5em;
+  line-height: 1.2em;
+}
+
+#podbor {
+  border: none;
+  margin-top: 15px;
+}
+/* Select */
+ #helpColor{
+	float: left;
+}
+
+#feedback {
+  font-size: 1.4em;
+}
+
+#selectable .ui-selecting {
+  background: #7D6285;
+}
+
+#selectable .ui-selected {
+  background: green;
+  color: white;
+}
+
+#selectable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+
+#selectable li {
+  margin: 3px;
+  padding: 3px;
+  float: left;
+  width: 200px;
+  height: 148px;
+  font-size: 4em;
+  text-align: center;
+}
+
+#checkForm{
+	float: left;
+}
+
+#formHide, #formColor{
+  cursor: pointer;
+  text-decoration: underline;
+  padding-bottom: 10px;
+  color: gray;
+}
+
+#zoom{
+  width: 32px;
+  height: 22px;
+  float: right;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.forP{
+  color: #cc0000;
+}
+
+.forP2{
+  color: #95cc00;
+}
+
+#tabs img{
+  float: left;
+}
